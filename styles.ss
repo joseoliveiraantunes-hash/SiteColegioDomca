@@ -130,6 +130,6 @@ gap: 22px;
 
 .card{
     background-color: white;
-    padding: 25px;
+    padding
 }
 }
