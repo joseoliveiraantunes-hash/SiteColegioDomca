@@ -179,6 +179,16 @@ section h2::after {
 .agenda ul {
     list-style: none;
 }
+<<<<<<< HEAD
+
+.agenda ul li {
+    background: white;
+    margin-bottom: 14px;
+    padding: 16px 18px;
+    border-left: 6px solid #1976d2;
+    border-radius: 10px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+=======
 
 .agenda ul li {
     background: white;
@@ -188,7 +198,9 @@ section h2::after {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 font-weight: 500;
+>>>>>>> 5672f0d4a208cc6aeef5dced509df8c5882cb05f
 }
+
 
 .contato-box{
     background: white;
@@ -201,3 +213,5 @@ font-weight: 500;
 
 
 
+
+>>>>>>> 5672f0d4a208cc6aeef5dced509df8c5882cb05f
