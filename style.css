@@ -145,15 +145,45 @@ section h2::after {
   transition: 0.3s ease;
 }
 
-.card:hover{
-  transform: translateY(-6px);
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.06);
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
 }
 
-.card h3{
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
   color: #1565c0;
   margin-bottom: 12px;
   font-size: 1.25rem;
 }
 
+.card p {
+  color: #4b5563;
+}
 
+.agenda{
+  background: #eaf3ff;
+  border-radius: 18px;
+  padding: 35px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.agenda ul{
+  list-style: none;
+}
+.agenda ul li{
+background: white;
+margin-bottom: 14px;
+padding: 16px 18px;
+border-left: 6px solid #1976d2;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
